@@ -1,0 +1,154 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+hr {
+    margin-top: 75px;
+    margin-left: 10%;
+    width: 80%
+}
+p {
+    color: #8f8f8f
+}
+.bg {
+    background-image: url("images/jess-bailey-_z2aaldUAFs-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .bg {
+        text-align: center;
+    }
+}
+.title {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.download {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.card-title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.lead {
+    font-size: 4rem;
+}
+.card-deck {
+    margin: 0 20px;
+}
+.card {
+    margin: 0 10px;
+}
+.logo {
+    height: 1.8rem;
+    width: 1.8rem;
+    margin: 0 10px 2px 0;
+}
+#Pfeatures {
+    text-align: center;
+    margin-top: 2rem;
+}
+.features {
+    margin-top: 2rem;
+    padding: 2% 10% 0 10%;
+}
+.feature-box {
+    padding: 0 4%;
+}
+.ft-img {
+    margin-bottom: 1rem;
+}
+@media (max-width: 991px) {
+    .features {
+        padding: 2% 4% 0 4%;
+    }
+}
+@media (max-width: 768px) {
+    .feature-box {
+        margin-bottom: 1rem;
+    }
+}
+#testimonialreview {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    padding: 0 10%;
+}
+.tr {
+    margin-top: 5rem;
+}
+#testimonial {
+    opacity: 0.9;
+}
+#testimonial:hover {
+    opacity: 1;
+}
+#reviews {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
+.rbutton {
+    width: 2rem;
+    height: 4rem;
+    transform: rotate(90deg);
+    margin-top: 5rem;
+}
+.plans {
+    margin: 0 10%;
+}
+@media (max-width: 991px) {
+    .plans {
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .plans {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+.plan-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.plan-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer {
+    margin-top: 10rem;
+    background-color: #212529;
+    text-align: center;
+    padding: 3rem;
+}
+.fp {
+    padding: 0 2.5rem;
+}
+.about {
+    color: white;
+}
+#contact {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.copyright {
+    font-size: 0.8rem;
+}
+.social {
+    color: white;
+    opacity: 0.8;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.social:hover {
+    color: white;
+    opacity: 1;
+}
